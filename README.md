@@ -48,6 +48,8 @@ Låt summan av alla debiteringspoäng Dk vara Dt
 Konsultens andel av bonuspotten Bk = Dk / Dt
 
 ### Exempelberäkning med 2 konsulter
+| | |
+| --------------------------------------- | -------------------------------------- |
 | Bolaget har 100 000 SEK i nettoresultat | Bonuspott = 100 000 * 0,05 = 5 000 SEK |
 | Konsult 1 har varit anställd i 3 år     | Lk1 = 1,3                              |
 | Han har debiterat 150 timmar            | Dk1 = Lk1 * 150 = 195                  |
