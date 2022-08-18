@@ -1,1 +1,26 @@
-<p>consultants works!</p>
+<h1 id="tableLabel">Konsulter</h1>
+
+<p *ngIf="!consultants"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="consultants">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Namn</th>
+      <th>Anställningsdatum</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let consultant of consultants">
+      <td>{{ consultant.id }}</td>
+      <td>{{ consultant.firstName }} {{ consultant.lastName }}</td>
+      <td>{{ consultant.startDate }}</td>
+      <td>
+        <button class="btn-primary btn-sm">Visa</button> 
+        <button class="btn-warning btn-sm">Redigera</button> 
+        <button class="btn-danger btn-sm">Ta bort</button>
+      </td>
+    </tr>
+  </tbody>
+</table>

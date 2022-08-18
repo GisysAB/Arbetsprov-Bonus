@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
-import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { BonusComponent } from './bonus/bonus.component';
 import { ConsultantsComponent } from './consultants/consultants.component';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { ConsultantsComponent } from './consultants/consultants.component';
     AppComponent,
     NavMenuComponent,
     HomeComponent,
-    FetchDataComponent,
+    BonusComponent,
     ConsultantsComponent
   ],
   imports: [
@@ -24,7 +24,8 @@ import { ConsultantsComponent } from './consultants/consultants.component';
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
-      { path: 'fetch-data', component: FetchDataComponent },
+      { path: 'consultants', component: ConsultantsComponent },
+      { path: 'bonus', component: BonusComponent },
     ])
   ],
   providers: [],
