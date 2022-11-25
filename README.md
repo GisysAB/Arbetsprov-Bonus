@@ -1,9 +1,9 @@
 # Arbetsprov-Bonus
 
 ## Introduktion
-Detta är ett arbetsprov som Gisys använder vid rekrytering av ny personal. När du slutfört uppgiften så kan du skicka länken till dit GitHub repo alternativt zippa ihop lösningen och skicka den till rekrytering@gisys.se, vi återkopplar så snart som möjligt för att bekräfta att vi mottagit din lösning. Vi försöker rätta provet under nästakommande arbetsdagar. 
-Vid en eventuell efterföljande intervju kommer vi att gå igenom din lösning. 
-Arbetsprovet ska vara inskickat till oss på Gisys inom en vecka från utskicksdatum, provet beräknas dock inte ta längre tid än en dag att genomföra.
+Detta är ett arbetsprov som Gisys använder vid rekrytering av ny personal. När du slutfört uppgiften så skicka svar i mejlet som är skickat från oss i teamtailor.
+Vi kommer rätta provet och vid en eventuell intervju kommer vi att gå igenom din lösning.
+Arbetsprovet ska vara inskickat till oss på Gisys inom 7 dagar, provet beräknas dock inte ta längre tid än en dag att genomföra.
 
 En grund till arbetsprovet finns i detta repository. 
 
